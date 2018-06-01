@@ -4,7 +4,7 @@ namespace  app\Sms;
  *  阿里云短信发送
  * */
 ini_set("display_errors", "on");
-require dirname(__FILE__) . DIRECTORY_SEPARATOR . '/api_sdk/vendor/autoload.php';
+require dirname(__FILE__) . DIRECTORY_SEPARATOR . '/vendor/autoload.php';
 use Aliyun\Core\Config;
 use Aliyun\Core\Profile\DefaultProfile;
 use Aliyun\Core\DefaultAcsClient;
